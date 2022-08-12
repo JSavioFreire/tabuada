@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+    --cor1:#6249F2;
+    --cor2:#4C5DDB;
+    --cor3:#4989F2;
+    --cor4:#46AEE8;
+}
+body{
+    background-color: var(--cor1);  
+}
+header{
+    text-align: center;
+    color: white;
+}
+section{
+    max-width: 500px;
+    height: 500px;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin: auto;
+    padding:20px 0 0 20px;
+}
+section #resultado{
+    width: 200px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
